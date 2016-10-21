@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+           <img src="../images/logo.jpg" alt="疯狂java的logo" /> <br />
+           <!-- 定义图片,指定高 宽 -->
+           <img alt="疯狂java的logo" src="../images/logo.jpg" width="300" height="120">
+           <!-- 定义图片,使用指定的图片映射 -->
+           <img src="../images/logo.jpg" width="300" height="120" border="0" usemap="#test"
+               alt="疯狂java的logo">   <br />
+               
+               <!-- 定义图片映射 -->
+           <map name="test" id="test">
+                      <!-- 为该图片映射定义2个区域 -->
+                      <area alt="leegang.org" shape="circle" coords="57,55,25" href="http://www.leegang.org" />
+                      <area shape="poly" coords="188,28,185,50,200,74,224,72,224,72,246,51"  
+                                href="http://www.crazyit.org"  alt="crazyit.org" />
+           </map>
+</body>
+</html>
